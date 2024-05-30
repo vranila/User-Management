@@ -1,0 +1,61 @@
+.nav-tabs {
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .employee-list {
+    margin-top: 20px;
+  }
+  
+  .employee-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .employee-item button {
+    margin-left: 10px;
+  }
+  
+  .heading{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 29px;
+font-weight: bold;
+background-color: #b77620;
+color: white;
+height: 8vh;
+  }
+
+#button{
+  background-color: black;
+color: white;
+height: 4vh;
+width: 3vw;
+}
+
+table{
+  width: 65%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  margin-left: 18%;
+}

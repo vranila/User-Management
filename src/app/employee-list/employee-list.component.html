@@ -1,0 +1,32 @@
+<div class="maincontainer">
+  <div class="heading">
+    User Management
+  </div>
+
+    <app-employee-filter (filtersChanged)="applyFilters($event)"></app-employee-filter>
+
+    <app-employee-form *ngIf="employeeToEdit" [employee]="employeeToEdit" (employeeSaved)="saveEmployee($event)"></app-employee-form>
+
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Designation</th>
+          <th scope="col">Location</th>
+          <th scope="col"> Actions </th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let employee of filteredEmployees">
+        <tr>
+          <th scope="row">{{employee.id }}</th>
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.position }}</td>
+          <td>{{ employee.location }}</td>
+          <td>       <button id='button'(click)="editEmployee(employee)">Edit</button>
+            <button id='button'(click)="deleteEmployee(employee.id)">Delete</button> </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

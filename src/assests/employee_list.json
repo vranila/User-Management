@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Jim",
+      "position": "Manager",
+      "location": "NewYork"
+    },
+    {
+      "id": 2,
+      "name": "Corbett",
+      "position": "HR",
+      "location": "Canada"
+    },
+    {
+      "id": 3,
+      "name": "Harry",
+      "position": "Designer",
+      "location": "Paris"
+    },
+    {
+        "id": 4,
+        "name": "Potter",
+        "position": "Developer",
+        "location": "Riyadh"
+    }
+  ]
+  

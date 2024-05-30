@@ -1,0 +1,20 @@
+.filter{
+    background: #ceb18a;
+height: 5vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#button{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 8vw;
+}
+#text{
+    color: black;
+height: 4vh;
+width: 14vw;
+}
